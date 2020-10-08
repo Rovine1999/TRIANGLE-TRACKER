@@ -10,60 +10,66 @@
 </head>
 
 <body>
-    <h1><u><b>AKAN-NAMES WEBSITE</b></u></h1>
     <div class="container">
-        <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the
-            order in which they were born.<br /> These "day names" have further meanings concerning the soul and
-            character ofthe person.This naming tradition is shared throughout West<br /> Africa.Most Ghanaians have at
-            least one
-            name from this system, even if they also have an English or Christian name.
-            Notable figures with day<br />names include Ghana's first president Kwame Nkrumah and former United Nations
+     <h1><u><b>TRIANGLE TRACKER</b></u></h1>
+    </div>
+    <div class="container">
+        <p>
+            A website that will helps us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
         </p>
     </div>
-    
-        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <h2><u><b>EQUILATERAL TRIANGLE</b></u></h2>
+                    <p>A triangle which all sides are equal</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h2><u><b>ISOSCELES TRIANGLE</b></u></h2>
+                    <p>A triangle which two sides are equal</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h2><u><b>SCALENE TRIANGLE</b></u></h2>
+                    <p>A triangle which all sides are not equal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form name="myForm">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="side1">Side1</label>
+                        <input type="number" class="form-control" placeholder="" id="side1" min="1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="side1">Side2</label>
+                        <input type="number" class="form-control" placeholder="" id="side2" min="1">
+                    </div>
+                </div>
 
-
-        <div class="container">
-            <form name="myForm">
+            </div>
+            <div class="form-group">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="year">Hypotenuse</label>
-                            <input type="number" class="form-control" placeholder="year" id="year">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="Month">height</label>
-                            <input type="number" class="form-control" placeholder="month" id="month">
-                        </div>
+                        <label for="side3">side3</label>
+                        <input type="number" class="form-control" placeholder="" id="side3" min="1">
                     </div>
 
                 </div>
-                <div class="form-group">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="Day"></label>
-                            <input type="number" class="form-control" placeholder="day" id="day">
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <div class="radio">
-                                <label class="gender">
-                                    <input class="radio" type="radio" name="gender" id="male">Male
-                                    <input class="radio" type="radio" name="gender" id="female">Female
-                                </label>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <button type="button" class="btn-primary" onclick="myFunction()">Submit</button>
-                    </div>
-            </form>
-        </div>
+                <div>
+                    <button type="button" class="btn-primary" onclick="myFunction()">Submit</button>
+                </div>
+        </form>
+    </div>
 
 
     </div>
