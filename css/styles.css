@@ -9,3 +9,11 @@ h1:hover {color: red;}
   background-color: crimson;
 }
 
+.card {
+  border: solid crimson;
+}
+
+body {
+  background-color: bisque;
+}
+
