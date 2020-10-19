@@ -1,25 +1,24 @@
 #
-#### Rovine Sydney Wanjala, 08/10/2020
+#### Rovine Sydney Wanjala, 10/10/2020
 #### By Rovine Wanjala
 ## Description
-Application that accepts the user date of birth and excutes the the name of the user he/she was born according days of the week
+A website that will helps us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?
-## Known Bugs
-Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. 
+To access this site click the link https://rovine1999.github.io/TRIANGLE-TRACKER/ then enter your details and your message then you will be notified if the message is recieved.
 ## Technologies Used
-Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.
+HTML to create the page.
+CSS for styling.
+JavaScript for responsivibility
 ## Support and contact details
-Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.
+You can find me on;
+Facebook @sygel sydney.
+Instangram @rovinewanjala.
+Twiter @rovinewanjala.
+LinkedIn @ rovinewanjala.
 ### License
 MIT License
 
-Copyright (c) [2020] [Rovine Sydney Wanjala]
+Copyright (c) 2020 Rovine Sydney Wanjala
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
